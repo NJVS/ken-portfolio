@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&family=Train+One&display=swap');
+
 :root {
+  /* FONT FAMILY */
+  --ff-logo: 'Train One';
+  --ff-primary: 'Epilogue', sans-serif;
+
+  /* FONT SIZE */
+  --fs-50: 0.5rem;
+  --fs-300:  0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.125rem;
+  --fs-900: 3rem;
+
   /* NEUTRAL */
   --c-neutral-50: #fafafa;
   --c-neutral-100: #f5f5f5;
@@ -10,22 +23,6 @@
   --c-neutral-700: #616161;
   --c-neutral-800: #424242;
   --c-neutral-900: #212121;
-
-  /* YELLOW */
-  --c-yellow-50: #fffde7;
-  --c-yellow-100: #fff9c4;
-  --c-yellow-200: #fff59d;
-  --c-yellow-300: #fff176;
-  --c-yellow-400: #ffee58;
-  --c-yellow-500: #ffeb3b;
-  --c-yellow-600: #fdd835;
-  --c-yellow-700: #fbc02d;
-  --c-yellow-800: #f9a825;
-  --c-yellow-900: #f57f17;
-  --c-yellow-accent-100: #ffff8d;
-  --c-yellow-accent-200: #ffff00;
-  --c-yellow-accent-300: #ffea00;
-  --c-yellow-accent-400: #ffd600;
 
   /* ORANGE */
   --c-orange-50: #fff3e0;
@@ -57,5 +54,5 @@
   --c-deep-orange-accent-100: #ff9e80;
   --c-deep-orange-accent-200: #ff6e40;
   --c-deep-orange-accent-300: #ff3d00;
-  --c-deep-orange-accent-400: #dd2c00;
+  --c-deep-orange-accent-400: #9C4A38;
 }
