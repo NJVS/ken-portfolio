@@ -1,6 +1,6 @@
 
 
-const aboutme = {
+export const aboutme = {
   first_name: "Ken",
   last_name: "Orinion",
   title: "Photographer",
