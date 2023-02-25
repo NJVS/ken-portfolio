@@ -12,7 +12,7 @@
 
 // FONTS
 .section_title {
-  color: var(--c-deep-orange-900);
+  color: var(--c-deep-orange-accent-400);
   font-size: var(--fs-500);
 
   &.light {
@@ -28,6 +28,10 @@
     font-size: var(--fs-900);
   }
 
+  &:is(h2) {
+    font-size: var(--fs-800);
+  }
+
   &.center {
     text-align: center;
   }
@@ -41,6 +45,7 @@
 
 // BUTTON
 .button {
+  position: relative;
   padding: 0.875rem 1.75rem 0.75rem;
   background-color: var(--c-deep-orange-accent-400);
   border: 1px solid var(--c-deep-orange-accent-400);
