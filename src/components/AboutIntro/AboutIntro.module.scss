@@ -1,0 +1,71 @@
+.container {
+  padding: 10rem 0;
+  width: 100%;
+
+  // global container
+  >div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  figure {
+    position: relative;
+
+    svg {
+      position: absolute;
+      width: 45%;
+      height: auto;
+      aspect-ratio: 1/1;
+    }
+
+    img {
+      width: 85%;
+      height: auto;
+    }
+
+    &.first {
+      svg {
+        top: -10%;
+        left: 0;
+      }
+
+      img {
+        float: right;
+      }
+    }
+
+    &.second {
+      svg {
+        bottom: -10%;
+        right: 0;
+      }
+
+      img {
+        float: left;
+      }
+    }
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+
+    .progress {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .work_overview {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem 0;
+      margin-top: 2rem;
+      width: 75%;
+    }
+  }
+}
