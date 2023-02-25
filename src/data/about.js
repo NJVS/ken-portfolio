@@ -1,5 +1,3 @@
-
-
 export const aboutme = {
   first_name: "Ken",
   last_name: "Orinion",
@@ -85,33 +83,6 @@ const experience = [
   }
 ];
 
-const services = [
-  {
-    title: "Commercial",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. In massa velit."
-  },
-  {
-    title: "Photography",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. In massa velit."
-  },
-  {
-    title: "Videography",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. In massa velit."
-  },
-  {
-    title: "Editing",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. In massa velit."
-  },
-  {
-    title: "Branding",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. In massa velit."
-  },
-  {
-    title: "Events",
-    desc: "Lorem ipsum dolor sit amet, consec tetur adipiscing elit. In massa velit."
-  },
-]
-
 const faq = [
   {
     question: "How do I collaborate with us?",
@@ -133,29 +104,6 @@ const faq = [
     question: "How long usually it takes to get the finish product?",
     answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa velit, dictum ac mattis eu, condimentum sit amet libero. Praesent vitae nibh at neque pretium porta. Donec sollicitudin sollicitudin bibendum."
   }
-];
-
-const testimonials = [
-  { 
-    name: "Joffrey Baratheon", 
-    title: "King of the 7 kingdom",
-    comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa velit, dictum ac mattis eu, condi mentum sit amet libero. Praesent vitae. Donec ullam corper enim pellentesque est tempus ornare. Integer ac arcu imperdiet. Aenean lacinia sem arcu, quis posuere justo aliquam at.",
-  },
-  { 
-    name: "Sansa Stark", 
-    title: "Lady of the North",
-    comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa velit, dictum ac mattis eu, condi mentum sit amet libero. Praesent vitae. Donec ullam corper enim pellentesque est tempus ornare. Integer ac arcu imperdiet. Aenean lacinia sem arcu, quis posuere justo aliquam at.",
-  },
-  { 
-    name: "John Snow", 
-    title: "Lord Comander of the Night's Watch",
-    comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa velit, dictum ac mattis eu, condi mentum sit amet libero. Praesent vitae. Donec ullam corper enim pellentesque est tempus ornare. Integer ac arcu imperdiet. Aenean lacinia sem arcu, quis posuere justo aliquam at.",
-  },
-  { 
-    name: "Tyrion Lannister", 
-    title: "Hand of the King",
-    comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In massa velit, dictum ac mattis eu, condi mentum sit amet libero. Praesent vitae. Donec ullam corper enim pellentesque est tempus ornare. Integer ac arcu imperdiet. Aenean lacinia sem arcu, quis posuere justo aliquam at.",
-  },
 ];
 
 const pricing = [
