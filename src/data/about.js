@@ -29,39 +29,6 @@ export const aboutme = {
   },
 }
 
-const partners = [
-  {
-    name: "Julius Andre",
-    title: "Photographer",
-    socials: {
-      facebook: 'https://www.facebook.com',
-      twitter: 'https://www.twitter.com',
-      instagram: 'https://www.instagram.com',
-      linkedin: 'https://www.linkedin.com',
-    }
-  },
-  {
-    name: "Luna Ariana",
-    title: "Photographer",
-    socials: {
-      facebook: 'https://www.facebook.com',
-      twitter: 'https://www.twitter.com',
-      instagram: 'https://www.instagram.com',
-      linkedin: 'https://www.linkedin.com',
-    }
-  },
-  {
-    name: "Thomas Clark",
-    title: "Photographer",
-    socials: {
-      facebook: 'https://www.facebook.com',
-      twitter: 'https://www.twitter.com',
-      instagram: 'https://www.instagram.com',
-      linkedin: 'https://www.linkedin.com',
-    }
-  }
-];
-
 const experience = [
   {
     title: "Wedding Photographer",
