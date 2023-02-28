@@ -9,6 +9,10 @@
   background-color: var(--c-neutral-900);
 }
 
+.bg_light {
+  background-color: var(--c-neutral-800);
+}
+
 
 // FONTS
 .section_title {
@@ -17,6 +21,7 @@
 
   &.light {
     color: var(--c-orange-50);
+    color: var(--c-orange-100);
   }
 }
 
