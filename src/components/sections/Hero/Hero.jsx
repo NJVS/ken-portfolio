@@ -1,17 +1,18 @@
-import { Link } from 'react-router-dom';
-import global from '../../../../global.module.scss';
+import { Link } from "react-router-dom"
+
+import global from '../../../global.module.scss';
 import styles from './Hero.module.scss';
 
-import { ReactComponent as IconFacebook } from '../../../../assets/icons/facebook.svg';
-import { ReactComponent as IconTwitter } from '../../../../assets/icons/twitter.svg';
-import { ReactComponent as IconYoutube } from '../../../../assets/icons/youtube.svg';
-import { ReactComponent as IconInstagram } from '../../../../assets/icons/instagram.svg';
-import { ReactComponent as IconLinkedin } from '../../../../assets/icons/linkedin.svg';
+import { ReactComponent as IconFacebook } from '../../../assets/icons/facebook.svg';
+import { ReactComponent as IconTwitter } from '../../../assets/icons/twitter.svg';
+import { ReactComponent as IconYoutube } from '../../../assets/icons/youtube.svg';
+import { ReactComponent as IconInstagram } from '../../../assets/icons/instagram.svg';
+import { ReactComponent as IconLinkedin } from '../../../assets/icons/linkedin.svg';
 
-const Hero = () => {
+export const MainHero = () => {
   return (
-    <section className={styles.container}>
-      <div className={`${styles.main} ${global.container}`}>
+    <section className={styles.container1}>
+      <div className={`${styles.body} ${global.container}`}>
         <p className={`${global.section_title} ${global.light}`}>
           Hello, I am Ken Orinion
         </p>
@@ -61,4 +62,8 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export const PageHero = () => {
+  return (
+    <div>PageHero</div>
+  )
+}

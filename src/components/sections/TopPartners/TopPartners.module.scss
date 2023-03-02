@@ -1,0 +1,29 @@
+.container {
+  padding: 5rem 0;
+
+  // global container
+  >div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    >div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

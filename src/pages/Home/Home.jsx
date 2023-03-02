@@ -1,11 +1,20 @@
 import global from '../../global.module.scss';
 import styles from './Home.module.scss';
-import Hero from './Sections/Hero/Hero';
+import { MainHero } from '../../components/sections/Hero/Hero';
+import AboutIntro from '../../components/sections/AboutIntro/AboutIntro';
+import { Services1 } from '../../components/sections/Services/Services';
+import Testimonials from '../../components/sections/Testimonials/Testimonials';
+import TopPartners from '../../components/sections/TopPartners/TopPartners';
 
 const Home = () => {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
+      <MainHero />
+      <AboutIntro designtype='1' />
+      <Services1 />
+      <TopPartners />
+      <Testimonials bgDark={true} />
     </>
   )
 }

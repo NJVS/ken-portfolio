@@ -1,6 +1,7 @@
-@use '../../../../assets/styles/utils.scss' as *;
+@use '../../../assets/styles/utils.scss' as *;
 
-.container {
+// Main Hero
+.container1 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -10,7 +11,7 @@
     height: auto;
   }
 
-  .main {
+  .body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -85,3 +86,6 @@
     }
   }
 }
+
+// Page Hero
+.container2 {}
